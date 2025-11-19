@@ -35,7 +35,8 @@ navbar .menu li .a:hover{
     border-bottom: 4px solid #f63e4e;
 }
 .content{
-    background-image: url(/CREESITECOMMERCE/IMAGE/premier.png);
+   width: 100%;
+    background-image: url(/CREESITECOMMERCE/image/image.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 5%;
@@ -80,7 +81,7 @@ cursor: pointer;
  .produits .carte{
     width: "310px";
     background: #f5f5f5;
-    bottom: 0 10px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin-bottom: 20px;
  }
@@ -114,6 +115,24 @@ cursor: pointer;
     color: #f63e4e;
     padding: 10PX 18px;
     border-radius: 5px;
+ }
+ .produits .carte .box .achat:hover{
+   cursor: pointer;
+   background: black;
+   color:white;
+ }
+ footer{
+   background: #f3f4f6;
+   height: 10vh;
+ }
+ footer p{
+   text-align: center;
+   line-height: 10vh;
+ }
+ footer p a{
+   text-align: none;
+   color: #f63e4e;
+   font-weight: bold;
  }
 
 
