@@ -36,7 +36,7 @@ navbar .menu li .a:hover{
 }
 .content{
    width: 100%;
-    background-image: url(/CREESITECOMMERCE/image/image.png);
+    background-image: url("images/image.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 5%;
