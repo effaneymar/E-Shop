@@ -36,6 +36,8 @@ navbar .menu li .a:hover{
 }
 .content{
    width: 100%;
+   /* image de fond */
+    /* background-image: url("images/image.png"); */
     background-image: url("images/image.png");
     background-size: cover;
     background-repeat: no-repeat;
